@@ -228,6 +228,8 @@ a:focus-visible, button:focus-visible{
 }
 .award{
   color: var(--oxblood);
+  font-family: var(--font-mono);
+  font-size: .78rem;
 }
 .pub-caret{
   font-family: var(--font-mono);
