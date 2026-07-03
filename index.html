@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jane A. Researcher — Academic Website</title>
+<meta name="description" content="Academic homepage of Jane A. Researcher, Department of Computer Science, University Name.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="identity">
+      <p class="eyebrow">Department of Computer Science · University Name</p>
+      <h1>Jane A. Researcher</h1>
+      <p class="tagline">Assistant Professor · Human-Computer Interaction &amp; Machine Learning</p>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section id="about" class="section about">
+    <div class="wrap about-grid">
+      <div class="about-photo">
+        <div class="photo-frame">
+          <img src="assets/photo.jpg" alt="Portrait of Jane A. Researcher" onerror="this.parentElement.classList.add('photo-fallback')">
+        </div>
+      </div>
+      <div class="about-copy">
+        <h2><span class="section-index">§1</span> About</h2>
+        <p>
+          I am an Assistant Professor in the Department of Computer Science at
+          <strong>University Name</strong>, where I lead the
+          <strong>[Lab Name]</strong>. My research sits at the intersection of
+          human&ndash;computer interaction and machine learning, focusing on
+          <em>[your one-sentence research focus &mdash; replace this]</em>.
+        </p>
+        <p>
+          Before joining University Name, I completed my Ph.D. in
+          <span class="placeholder">[Field]</span> at
+          <span class="placeholder">[Institution]</span> in
+          <span class="placeholder">[Year]</span>, advised by
+          <span class="placeholder">[Advisor Name]</span>. I hold an
+          <span class="placeholder">[M.S./B.S.]</span> from
+          <span class="placeholder">[Institution]</span>.
+        </p>
+        <p class="links-line">
+          <a href="mailto:jane.researcher@university.edu">Email</a>
+          <span aria-hidden="true">·</span>
+          <a href="cv.pdf">CV (PDF)</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="section publications">
+    <div class="wrap">
+      <h2><span class="section-index">§2</span> Publications</h2>
+      <p class="section-note">Selected publications, most recent first. Click a title to expand the abstract. * indicates equal contribution.</p>
+
+      <ol class="pub-list">
+
+        <li class="pub-entry" id="pub-2026a">
+          <button class="pub-toggle" aria-expanded="false" aria-controls="abs-2026a">
+            <span class="pub-num">[1]</span>
+            <span class="pub-main">
+              <span class="pub-title">Title of Your Most Recent Paper Goes Here</span>
+              <span class="pub-authors"><strong>J. Researcher</strong>, A. Coauthor*, B. Coauthor. </span>
+              <span class="pub-venue">Proceedings of the Conference Name (CONF), 2026.</span>
+            </span>
+            <span class="pub-caret" aria-hidden="true">＋</span>
+          </button>
+          <div class="pub-abstract" id="abs-2026a" hidden>
+            <p>Replace with your abstract. One or two sentences on the problem, method, and finding is usually enough here &mdash; link out to the PDF for the rest.</p>
+            <p class="pub-links">
+              <a href="#">PDF</a> · <a href="#">Code</a> · <a href="#">BibTeX</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub-entry" id="pub-2025a">
+          <button class="pub-toggle" aria-expanded="false" aria-controls="abs-2025a">
+            <span class="pub-num">[2]</span>
+            <span class="pub-main">
+              <span class="pub-title">Second Paper Title Goes Here</span>
+              <span class="pub-authors"><strong>J. Researcher</strong>, C. Coauthor. </span>
+              <span class="pub-venue">Journal Name, vol. X, no. Y, 2025.</span>
+            </span>
+            <span class="pub-caret" aria-hidden="true">＋</span>
+          </button>
+          <div class="pub-abstract" id="abs-2025a" hidden>
+            <p>Replace with your abstract text.</p>
+            <p class="pub-links">
+              <a href="#">PDF</a> · <a href="#">Code</a> · <a href="#">BibTeX</a>
+            </p>
+          </div>
+        </li>
+
+        <li class="pub-entry" id="pub-2024a">
+          <button class="pub-toggle" aria-expanded="false" aria-controls="abs-2024a">
+            <span class="pub-num">[3]</span>
+            <span class="pub-main">
+              <span class="pub-title">Third Paper Title Goes Here</span>
+              <span class="pub-authors"><strong>J. Researcher</strong>, D. Coauthor, E. Coauthor. </span>
+              <span class="pub-venue">Proceedings of the Other Conference (OC), 2024. <span class="award">Best Paper Honorable Mention</span></span>
+            </span>
+            <span class="pub-caret" aria-hidden="true">＋</span>
+          </button>
+          <div class="pub-abstract" id="abs-2024a" hidden>
+            <p>Replace with your abstract text.</p>
+            <p class="pub-links">
+              <a href="#">PDF</a> · <a href="#">Code</a> · <a href="#">BibTeX</a>
+            </p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <section id="cv" class="section cv">
+    <div class="wrap">
+      <h2><span class="section-index">§3</span> Appointments &amp; Education</h2>
+      <ol class="timeline">
+        <li>
+          <span class="tl-date">2024 &ndash; present</span>
+          <span class="tl-body"><strong>Assistant Professor</strong>, Department of Computer Science, University Name</span>
+        </li>
+        <li>
+          <span class="tl-date">2022 &ndash; 2024</span>
+          <span class="tl-body"><strong>Postdoctoral Researcher</strong>, Institution Name</span>
+        </li>
+        <li>
+          <span class="tl-date">2017 &ndash; 2022</span>
+          <span class="tl-body"><strong>Ph.D., [Field]</strong>, Institution Name — advised by [Advisor Name]</span>
+        </li>
+        <li>
+          <span class="tl-date">2013 &ndash; 2017</span>
+          <span class="tl-body"><strong>B.S., [Field]</strong>, Institution Name</span>
+        </li>
+      </ol>
+      <p class="cv-link"><a href="cv.pdf">Download full CV (PDF) →</a></p>
+    </div>
+  </section>
+
+  <section id="teaching" class="section teaching">
+    <div class="wrap">
+      <h2><span class="section-index">§4</span> Teaching</h2>
+      <ul class="teaching-list">
+        <li><span class="course-code">CS 4XX</span> Course Title Goes Here — <span class="placeholder">Fall 2025, Spring 2026</span></li>
+        <li><span class="course-code">CS 5XX</span> Graduate Seminar Title — <span class="placeholder">Spring 2025</span></li>
+        <li><span class="course-code">CS 2XX</span> Introductory Course Title — <span class="placeholder">Fall 2024</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="wrap">
+      <h2><span class="section-index">§5</span> Contact</h2>
+      <address>
+        <p>Department of Computer Science<br>
+        University Name<br>
+        123 University Ave, City, State ZIP</p>
+        <p><a href="mailto:jane.researcher@university.edu">jane.researcher@university.edu</a></p>
+      </address>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="year"></span> Jane A. Researcher. Built with plain HTML &amp; CSS, hosted on GitHub Pages.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
