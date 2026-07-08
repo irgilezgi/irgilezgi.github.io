@@ -38,6 +38,20 @@ body{
 }
 
 .about-copy p {
+  text-align: left;
+}
+
+@media (min-width: 640px) {
+  .about-copy p {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: break-word;
+  }
+}
+
+.about-copy p {
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
