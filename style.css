@@ -37,6 +37,21 @@ body{
   padding: 0 1.5rem;
 }
 
+.about-copy p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  overflow-wrap: break-word;
+}
+
+/* keep the last line of a justified paragraph left-aligned, not stretched */
+.about-copy p::after {
+  content: "";
+}
+
 a{ color: var(--oxblood); text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover{ color: var(--navy); }
 a:focus-visible, button:focus-visible{
